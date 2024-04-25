@@ -1,0 +1,223 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    --primary-color: #f6f8fd;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #000000;
+}
+
+/* Style Navbar */
+.navbar {
+    background-color: #ffffff;
+    position: fixed;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    border-radius: 100px;
+}
+
+.navbar.color-active {
+    background-color: var(--navbar-color);
+    padding: 20px 0 20px 0;
+    box-shadow:0 2px 5px #00000056 ;
+    
+}
+
+.navbar .nav-link a {
+    padding: 5px 5px 5px 5px;
+    color: var(--color-text);
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.navbar .nav-link a:hover{
+    color: darkseagreen;
+}
+
+.navbar .nav-link .active {
+    color: greenyellow;
+}
+
+.navbar button{
+    border-color: aquamarine;
+    background-color: rgb(32, 225, 160);
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.navbar button:hover{
+    border-color: darkgreen;
+    background-color: rgb(16, 66, 49);
+    color: yellowgreen;
+}
+
+/* Style Home */
+
+header {
+    background: url(/src/assets/img/hero.png);
+    width: 100%;
+
+}
+
+.homepage .header-box h1{
+    margin-top: 10rem;
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--navbar-color);
+    padding-left: 2rem;
+}
+
+.homepage .header-box button{
+    background-color: #C9D32C;
+    padding: 10px;
+}
+
+.homepage .header-card .card2{
+    margin-top: 10rem;
+    width: 20rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0, 0, 10 rgba(0, 0, 0, .2);
+    color: white;
+    border-top-left-radius: 50px;
+    padding: 30px 40px;
+}
+
+.homepage .header-card .card1{
+    margin-top: 10rem;
+    margin-left: 25px;
+    width: 18rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0, 0, 10 rgba(0, 0, 0, .2);
+    color: white;
+    border-top-right-radius: 50px;
+    padding: 30px 40px;
+}
+
+.homepage .header-card .card1 button{
+    background: #C9D32C;
+    margin-right: 10px;
+}
+
+.homepage .header-card .card1 .card-link{
+    color: #C9D32C;
+    text-decoration: none;
+}
+
+.homepage .header-card .card2 button{
+    background: #C9D32C;
+    margin-right: 10px;
+}
+
+.homepage .header-card .card2 .card-link{
+    color: #C9D32C;
+    text-decoration: none;
+}
+
+.homepage .hd-card{
+    background-color: #087E69;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 200px;
+}
+
+.homepage .hd-card .card3{
+    background-color: #087E69;
+    border-color: #087E69;
+}
+
+.homepage .hd-card .logo{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.homepage .hd-card2 {
+    margin-top: 3rem;
+}
+
+.homepage .hd-card2 .card4 .title {
+    font-size: 80px;
+}
+
+.homepage .hd-card2 .card4 .title span{
+    color: #C9D32C;
+}
+
+.homepage .hd-card2 .card4 .isi {
+    font-size: 20px;
+}
+
+.homepage .hd-card2 .card4 .isi span{
+    font-weight: bold;
+}
+
+.homepage .hd-card3{
+    margin-top: 2rem;
+    background: #F2F4F7;
+    border: #ffffff;
+    border-radius: 30px;
+}
+.homepage .hd-card3 .card{
+    background: #F2F4F7;
+    border: none;
+}
+
+.homepage .hd-card3 .card .title1 {
+    margin-right: 20rem;
+    margin-left: 3rem;
+    font-size: 50px;
+}
+
+.homepage .hd-card3 .card .title1 span{
+    color: #C9D32C;
+}
+
+.homepage .hd-card3 .card .isi1 {
+    font-size: 18px;
+}
+
+.homepage .hd-card4{
+    margin-top: 2rem;
+    background: #087E69;
+    border: #ffffff;
+    border-radius: 30px;
+}
+.homepage .hd-card4 .card{
+    background: #087E69;
+    border: none;
+}
+
+.homepage .hd-card4 .card .title1 {
+    margin-top: 1rem;
+    margin-right: 20rem;
+    margin-left: 3rem;
+    font-size: 50px;
+}
+
+.homepage .hd-card4 .card .isi1 {
+    font-size: 18px;
+}
+
+
+.homepage .header-box p{
+    line-height: 2;
+    color: var(--navbar-color);
+    font-weight: 300;
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+

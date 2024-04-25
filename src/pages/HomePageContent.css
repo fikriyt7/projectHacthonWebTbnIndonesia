@@ -1,0 +1,173 @@
+/* HomePageContent.css */
+.home-content-container {
+  padding: 2rem;
+  background-color: #f5f5f5; /* Background color abu-abu sedikit */
+}
+.kotak{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+}
+.kotak .text11{
+width: 70%;
+
+}
+.text11 h1{
+  color: #a3f111;
+  font-size: 40px;
+  text-shadow: 3px black;
+}
+.kotak .text22{
+  width: 40%;
+
+
+
+}
+
+.expertise-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expertise-network-image {
+  position: relative;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 0.3rem; /* Sesuaikan margin untuk gambar */
+}
+
+.expertise-network-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.connect-btn {
+  margin-top: 20px; /* Menambahkan margin di atas tombol */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expertise-network-image:hover .overlay {
+  opacity: 1;
+}
+
+.connect-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #9ad60c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.connect-btn:hover {
+  background-color: #0056b3;
+}
+/* HomePageContent.css */
+/* CSS yang sudah ada sebelumnya */
+
+.milestone {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.milestone-info {
+  flex: 1;
+}
+
+.circle-icon {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+}
+.event1{
+  margin-top: 20px;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+.event1 h1{
+  text-align: center;
+
+}
+/* HomePageContent.css */
+/* CSS yang sudah ada sebelumnya */
+
+/* Animasi untuk elemen bulat */
+/* HomePageContent.css */
+/* CSS yang sudah ada sebelumnya */
+
+.milestones-title {
+  text-align: center;
+}
+
+/* Animasi untuk tanda Milestones */
+/* HomePageContent.css */
+/* CSS yang sudah ada sebelumnya */
+
+.milestones {
+  position: relative; /* Menjadikan posisi relatif untuk posisi elemen di dalamnya */
+}
+
+.milestone-info-container {
+  position: absolute;
+  top: 50px; /* Atur posisi teks di sebelah kiri atas */
+  left: 50px;
+}
+
+.right {
+  right: 50px; /* Atur posisi teks di sebelah kanan atas */
+}
+
+.milestone-info {
+  opacity: 0; /* Mengatur awal opacity ke 0 untuk efek fade-in */
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px); /* Bergerak dari kiri */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px); /* Bergerak dari kanan */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
